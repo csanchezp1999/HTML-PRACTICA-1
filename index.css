@@ -1,0 +1,181 @@
+
+.columnaPrincipal{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+    
+}
+
+body{
+    background: url(https://static.wixstatic.com/media/e609d3_a792df9453b241979a3759b1ca968f14~mv2.png ) 
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 300px;
+    color: rgba(228, 228, 225, 0.923);
+    position: static; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h2{
+    font-size: medium;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    height: 240px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.content{
+    
+    flex-direction: column;
+    align-items: column;
+    text-align: center;
+    max-width: 600px;
+    font-size: small;
+    padding: 10px;
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+
+h3{
+    padding: 20px;
+    background-image: url(https://kratikal.com/blog/wp-content/uploads/2019/03/cropped-wallpaper-for-hacker.png);
+    border-radius: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Marketing{
+    text-align: left;
+    padding: 10px;
+    background-image: linear-gradient(rgb(100, 88, 88), rgb(32, 32, 105));
+    height: 200px;
+    display:flex;
+    max-width: 800px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.PeliculaMarketing1,.PeliculaMarketing2,.PeliculaMarketing3{
+    max-width: 600px;
+    max-height:500px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgP{
+    height: 100px;
+    width: 50px;
+    margin-left: 20px;
+    padding: -50px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .PeliculaMarketing3 {
+        display: none;  
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .PeliculaMarketing2,
+    .PeliculaMarketing3 {
+        display: none;  
+    }
+}
+
+.columnaSecundaria{
+    display: flex   
+}
+
+.redsocial{
+    width: 50px;
+    height: 40px;
+}
+.contentredsocial{
+    display: flex;
+   width: 200px;
+   height: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none; 
+    color: inherit;
+    display: flex;
+}
+.comentarios h1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzdxlqg9PMUS-YbZoffsiMCURxndFfgUhHyg&usqp=CAU);
+  
+
+    padding-top: 10px;
+    border-radius: 70px;
+}
+
+.comentarios{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: small;
+    margin-top: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contentcomentarios{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 100px;
+ 
+}
+
+.comentarios h2{
+    text-align: left;
+    max-width: 200px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.comentarios p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.imgcomentarios{
+    width: 80px;
+    height: 50px;
+   
+}
+
+.apartado7:hover{
+    background-color: #06080c; /* Cambia el color azul pastel según tus preferencias */
+    transition: background-color 0.5s ease; /* Agrega una transición suave de 0.5 segundos */
+}
+
+footer{
+    background-image: linear-gradient(rgb(91, 91, 134), black);
+    height: 200px;
+    color: rgb(148, 143, 143)    ;
+    text-align: right;
+    
+    align-content: end;
+}
